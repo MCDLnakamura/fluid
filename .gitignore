@@ -36,6 +36,7 @@
 /def_stage-wdm6
 /download
 /temporary
+/WRF
 *.exe
 *.o
 *.mod
