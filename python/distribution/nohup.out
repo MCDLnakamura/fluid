@@ -1,0 +1,222 @@
+Tue Nov 30 19:36:30 JST 2021
+Tue Nov 30 19:36:30 JST 2021
+Tue Nov 30 19:36:50 JST 2021
+Tue Nov 30 19:39:46 JST 2021
+start
+0
+WSM6
+Tue Nov 30 19:39:46 JST 2021
+0
+dbz
+Tue Nov 30 19:40:09 JST 2021
+0
+cors
+Tue Nov 30 19:46:17 JST 2021
+0
+life
+Tue Nov 30 23:33:54 JST 2021
+0
+Traceback (most recent call last):
+  File "main_int.py", line 63, in <module>
+    life_up,life_dw=life(path+file,a,cors_int[a,:,:,:])
+TypeError: list indices must be integers or slices, not tuple
+Wed Dec  1 00:08:39 JST 2021
+start
+0
+WSM6
+Wed Dec  1 00:08:39 JST 2021
+0
+life
+Wed Dec  1 00:09:08 JST 2021
+0
+Traceback (most recent call last):
+  File "main_int.py", line 63, in <module>
+    life_up,life_dw=life(path+file,a,cors_int[a,:,:,:])
+IndexError: too many indices for array: array is 0-dimensional, but 4 were indexed
+Wed Dec  1 00:13:15 JST 2021
+start
+0
+WSM6
+Wed Dec  1 00:13:15 JST 2021
+0
+dbz
+Wed Dec  1 00:13:42 JST 2021
+0
+cors
+Wed Dec  1 00:20:44 JST 2021
+0
+life
+Wed Dec  1 04:52:52 JST 2021
+Wed Dec  1 12:30:57 JST 2021
+start
+0
+WSM6
+Wed Dec  1 12:30:57 JST 2021
+0
+dbz
+Wed Dec  1 12:31:20 JST 2021
+0
+WSM6_h
+Wed Dec  1 12:39:06 JST 2021
+0
+dbz
+Wed Dec  1 12:39:50 JST 2021
+0
+WDM6
+Wed Dec  1 12:48:33 JST 2021
+0
+dbz
+Wed Dec  1 12:49:10 JST 2021
+0
+WDM6_h
+Wed Dec  1 12:57:50 JST 2021
+0
+dbz
+Wed Dec  1 12:58:33 JST 2021
+0
+WSM7
+Wed Dec  1 13:07:05 JST 2021
+0
+dbz
+Wed Dec  1 13:07:54 JST 2021
+0
+WDM7
+Wed Dec  1 13:15:56 JST 2021
+0
+dbz
+Wed Dec  1 13:16:42 JST 2021
+0
+Wed Dec  1 14:56:00 JST 2021
+start
+0
+WSM6
+Wed Dec  1 14:56:00 JST 2021
+0
+cors
+Wed Dec  1 14:56:37 JST 2021
+0
+Traceback (most recent call last):
+  File "/opt/local/anaconda3/envs/analysis/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 538, in put
+    put = a.put
+AttributeError: 'tuple' object has no attribute 'put'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main_int.py", line 54, in <module>
+    cors_loop=cors(path+file,a,dbz_int[a,:,:,:])
+  File "cors.py", line 90, in cors.cors
+    np.put(cors, [i*idx_lat*idx_lon+j*idx_lon+k], 2)
+  File "<__array_function__ internals>", line 5, in put
+  File "/opt/local/anaconda3/envs/analysis/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 540, in put
+    raise TypeError("argument 1 must be numpy.ndarray, "
+TypeError: argument 1 must be numpy.ndarray, not tuple
+  File "main_int.py", line 2
+SyntaxError: Non-ASCII character '\xe6' in file main_int.py on line 3, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+Wed Dec  1 17:03:22 JST 2021
+start
+0
+WSM6
+Wed Dec  1 17:03:22 JST 2021
+0
+cors
+Wed Dec  1 17:03:46 JST 2021
+0
+Traceback (most recent call last):
+  File "/opt/local/anaconda3/envs/analysis/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 538, in put
+    put = a.put
+AttributeError: 'tuple' object has no attribute 'put'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main_int.py", line 54, in <module>
+    cors_loop=cors(path+file,a,dbz_int[a,:,:,:])
+  File "cors.py", line 90, in cors.cors
+    np.put(cors, [i,j,k], 2)
+  File "<__array_function__ internals>", line 5, in put
+  File "/opt/local/anaconda3/envs/analysis/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 540, in put
+    raise TypeError("argument 1 must be numpy.ndarray, "
+TypeError: argument 1 must be numpy.ndarray, not tuple
+Wed Dec  1 17:25:19 JST 2021
+start
+0
+WSM6
+Wed Dec  1 17:25:19 JST 2021
+0
+cors
+Wed Dec  1 17:25:46 JST 2021
+0
+WSM6_h
+Thu Dec  2 01:34:13 JST 2021
+0
+cors
+Thu Dec  2 01:35:00 JST 2021
+0
+WDM6
+Thu Dec  2 10:49:38 JST 2021
+0
+cors
+Thu Dec  2 10:50:06 JST 2021
+0
+WDM6_h
+Thu Dec  2 16:35:30 JST 2021
+0
+cors
+Thu Dec  2 16:35:55 JST 2021
+0
+WSM7
+Thu Dec  2 22:12:42 JST 2021
+0
+cors
+Thu Dec  2 22:13:06 JST 2021
+0
+WDM7
+Fri Dec  3 06:46:21 JST 2021
+0
+cors
+Fri Dec  3 06:46:47 JST 2021
+Mon Dec  6 13:35:06 JST 2021
+start
+0
+W
+Mon Dec  6 13:35:06 JST 2021
+0
+Traceback (most recent call last):
+  File "main_int.py", line 26, in <module>
+    nc = Dataset(path+file, "r")
+  File "src/netCDF4/_netCDF4.pyx", line 2307, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1925, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/home/nakamura_kento/wrf/work/TR_Nkyushu_20170705/late_run_041200/W/wrfout_d03_2017-07-04_12:00:00'
+Mon Dec  6 13:36:06 JST 2021
+start
+0
+W
+Mon Dec  6 13:36:06 JST 2021
+0
+Traceback (most recent call last):
+  File "main_int.py", line 26, in <module>
+    nc = Dataset(path+file, "r")
+  File "src/netCDF4/_netCDF4.pyx", line 2307, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1925, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/home/nakamura_kento/wrf/work/TR_Nkyushu_20170705/late_run_041200/W/wrfout_d03_2017-07-04_12:00:00'
+Mon Dec  6 13:36:53 JST 2021
+start
+0
+W
+Mon Dec  6 13:36:53 JST 2021
+0
+Traceback (most recent call last):
+  File "main_int.py", line 26, in <module>
+    nc = Dataset(path+file, "r")
+  File "src/netCDF4/_netCDF4.pyx", line 2307, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 1925, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/home/nakamura_kento/wrf/work/TR_Nkyushu_20170705/late_run_041200/W/wrfout_d03_2017-07-04_12:00:00'
+Mon Dec  6 13:37:46 JST 2021
+start
+0
+WDM7
+Mon Dec  6 13:37:46 JST 2021
+0
+cors
+Mon Dec  6 13:38:37 JST 2021
