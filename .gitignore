@@ -36,7 +36,16 @@
 /def_stage-wdm6
 /download
 /temporary
-/WRF
+/WRF/.github
+/WRF/arch
+/WRF/chem
+/WRF/doc
+/WRF/external
+/WRF/frame
+/WRF/run
+/WRF/share
+/WRF/test
+/WRF/var
 *.exe
 *.o
 *.mod
