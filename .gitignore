@@ -45,5 +45,3 @@ configure.wrf*
 *.f90
 *.npy
 *.png
-python/distribution/LAMBDA_WSM6.npy
-python/distribution/LAMBDA_WSM7.npy
